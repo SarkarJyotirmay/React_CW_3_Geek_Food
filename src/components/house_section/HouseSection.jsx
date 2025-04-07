@@ -1,4 +1,5 @@
 import React from "react";
+import house from "../../assets/house.avif";
 import styles from "./house_section.module.css";
 
 function HouseSection() {
@@ -6,7 +7,7 @@ function HouseSection() {
     <>
       <div className={styles.container}>
         <div className={styles.left}>
-          <img src="../../src/assets/house.avif" alt="" />
+          <img src={house} alt="" />
         </div>
         <div className={styles.right}>
           <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, debitis.</h1>

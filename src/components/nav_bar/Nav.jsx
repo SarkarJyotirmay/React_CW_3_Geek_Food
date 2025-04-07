@@ -1,5 +1,6 @@
 import React from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
+import logo from '../../assets/logo.svg'
 import styles from "./nav.module.css";
 
 function Nav() {
@@ -8,7 +9,7 @@ function Nav() {
         <div className={styles["nav-parent"]}>
 
             <div className={styles.left}>
-                <img src="../../src/assets/logo.svg" alt="logo" />
+                <img src={logo} alt="logo" />
                 <h2>GeekFoods</h2>
             </div>
 
