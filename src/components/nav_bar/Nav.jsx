@@ -8,7 +8,7 @@ function Nav() {
         <div className={styles["nav-parent"]}>
 
             <div className={styles.left}>
-                <img src="src/assets/logo.svg" alt="logo" />
+                <img src="../../src/assets/logo.svg" alt="logo" />
                 <h2>GeekFoods</h2>
             </div>
 
