@@ -17,12 +17,12 @@ function Footer() {
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa cum itaque neque.</p>
        
         <div className={styles.links}>
-          <a href="../hero/Hero.jsx">About</a>
-          <a href="">Social</a>
-          <a href="">History</a>
-          <a href="">Services</a>
-          <a href="">Projects</a>
-          <a href="">Blogs</a>
+          <a href="#">About</a>
+          <a href="#">Social</a>
+          <a href="#">History</a>
+          <a href="#">Services</a>
+          <a href="#">Projects</a>
+          <a href="#">Blogs</a>
         </div>
 
         <div className={styles.socials}>

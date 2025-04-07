@@ -6,7 +6,7 @@ function HouseSection() {
     <>
       <div className={styles.container}>
         <div className={styles.left}>
-          <img src="../src/assets/house.avif" alt="" />
+          <img src="../../assets/house.avif" alt="" />
         </div>
         <div className={styles.right}>
           <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, debitis.</h1>
